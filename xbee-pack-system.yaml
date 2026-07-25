@@ -5,6 +5,8 @@ system:
     container: "{{ .xbee.name }}:{{ .xbee.ref }}"
 
 provider:
+    ovh:
+        image: AlmaLinux 9
     aws:
         ami:
             linux_amd64:
