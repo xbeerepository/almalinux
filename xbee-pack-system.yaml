@@ -2,3 +2,8 @@ schema-version: 1.0
 
 system:
    container: "{{ .xbee.name }}:{{ .xbee.ref }}"
+
+provider:
+   ionos:
+      imageAlias:
+         linux_amd64: alma:9
